@@ -4,24 +4,23 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    java,
     html,
     css,
     reactjs,
-    redux,
+    postman,
+    python,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    bbandb,
+    mimik,
+    dotmov,
+    webdev,
+    parstagram,
+    prototype,
     threejs,
   } from "../assets";
   
@@ -32,7 +31,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -46,7 +45,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "AWS Certified",
       icon: mobile,
     },
     {
@@ -54,50 +53,50 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Frontend Designer",
       icon: creator,
     },
   ];
   
   const technologies = [
     {
-      name: "HTML 5",
+      name: "html 5",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "css 3",
       icon: css,
     },
     {
-      name: "JavaScript",
+      name: "javaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "python",
+      icon: python,
     },
     {
-      name: "React JS",
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "react js",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
+      name: "tailwind css",
       icon: tailwind,
     },
     {
-      name: "Node JS",
+      name: "node js",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
+      name: "mongoDB",
       icon: mongodb,
     },
     {
-      name: "Three JS",
+      name: "three js",
       icon: threejs,
     },
     {
@@ -109,62 +108,22 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "postman",
+      icon: postman,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Sales Associate",
+      company_name: "Bed, Bath & Beyond",
+      icon: bbandb,
+      iconBg: "#fff",
+      date: "September 2019 - January 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully resolved over 200 customer complaints by implementing effective solutions, resulting in positive customer feedback, and honed problem-solving abilities.",
+        "Proficiently utilized software systems and tools to ensure accuracy and maintain quality control standards.",
+        "Provided exceptional customer service to an average of 20 customers per day, offering product knowledge and assisting with transactions, resulting in high levels of customer satisfaction.",
       ],
     },
   ];
@@ -172,56 +131,20 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
     },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+    
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "DotMOV",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables users to browse through different genres of movies, search, and keep track of their favorite movies.",
       tags: [
         {
           name: "react",
@@ -232,33 +155,92 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "mongodb",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: dotmov,
+      source_code_link: "https://github.com/cop4808-spring-2023-fullstack-web/final-project-group8",
     },
     {
-      name: "Trip Guide",
+      name: "Web Dev Projects",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Within this collection, you will find five distinct projects that include webpages and programs like tic-tac-toe, as part of a portfolio made for a class.",
       tags: [
         {
-          name: "nextjs",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: webdev,
+      source_code_link: "https://github.com/fali2020/portfolio/tree/main",
+    },
+    {
+      name: "Parstagram",
+      description:
+        "An Instagram clone with a custom Parse backend that allows a user to post, view, and add comments to photos. Similar projects like this on my GitHub.",
+      tags: [
+        {
+          name: "swift",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ruby",
+          color: "green-text-gradient",
+        },
+      ],
+      image: parstagram,
+      source_code_link: "https://github.com/fali2020/parstagram",
+    },
+    {
+      name: "Mimik",
+      description:
+        "Web-based Speech-to-Speech model for voice imitation using deep learning and machine learning techniques.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mimik,
+      source_code_link: "https://github.com/mrashid2019/Mimik/tree/main",
+    },
+    {
+      name: "Prototype",
+      description:
+        "A website prototype of a property management system, designed for smooth user experience.",
+      tags: [
+        {
+          name: "figma",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: prototype,
+      source_code_link: "https://www.figma.com/file/BwC2puMVC0bALrVh5NcrKU/CITY-OF-HAPPY-CITIZENS-PROPERTY-WEBSITE?type=design&node-id=0-1&mode=design",
     },
   ];
   
