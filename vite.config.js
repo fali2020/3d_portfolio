@@ -8,5 +8,5 @@ export default defineConfig({
     jsxFactory: 'React.createElement',
     jsxInject: 'import React from "react"',
   },
-  base: '/3d_portfolio/',
+  base: '/dist',
 });
